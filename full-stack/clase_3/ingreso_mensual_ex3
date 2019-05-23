@@ -1,0 +1,10 @@
+##Calcula tu dinero al final del mes
+##Items. Presupuesto (ingreso1, ingreso2, gasto1, gasto2, gasto3)
+
+inicio
+    leer ingreso1 ingreso2 gasto1 gasto2 gasto3
+        total_ingresos = ingreso1 + ingreso2 
+        total_gastos = gastos1 + gasto2 + gasto3
+
+        total_ing_mensual = (total_ingresos - total_gastos)
+fin

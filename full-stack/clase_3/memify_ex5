@@ -1,0 +1,14 @@
+##Memify es una startup que de dedica a hacer memes, hay 2 socios con el 50% de acciones cada una. ¿Cuánto 
+##dinero se queda cada quien si venden la startup y tienen que pagar el iva de su ganancia?
+
+##Memify (valor_startup)
+
+Inicio
+
+    Leer ValorMemify 
+    Leer iva
+    
+    ValorParcial = ((ValorMemify / 100) * iva)
+    TotalcapitalRestante = ValorParcial / 2
+
+fin

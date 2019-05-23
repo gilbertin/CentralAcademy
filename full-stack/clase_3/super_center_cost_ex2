@@ -1,0 +1,15 @@
+##Calcula cuánto vas a pagar por el super
+##Precio de Super(sal, azucar, cereal, arroz, helado)
+
+## Supercenter prices
+
+Inicio
+    leer precio_sal
+    leer precio_azucar
+    leer precio_cereal
+    leer precio_arroz
+    leer precio_helado 
+
+    precio_total =  precio_sal + precio_cereal + precio_cereal + precio_arroz + precio_helado
+    Imprimir precio_total
+Fin

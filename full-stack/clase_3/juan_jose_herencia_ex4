@@ -1,0 +1,22 @@
+## Juan y jose inician con una cantidad de dinero diferente cada quien. Su abuelita les deja una 
+## herencia que se divide entre los dos en partes iguales - ¿Cuánto dinero tienen entre los 2  y 
+##cuanto dinero tiene cada uno después de recibir la herencia
+
+## Herencia a nietos (jose, juan, herencia).
+
+juan = y
+jose = x
+herencia = z
+
+inicio
+
+    leer capitalJuan capitalJose
+    leer totalHerencia
+        herenciaRepartida = totalHerencia / 2
+        totalCapitalJuan = herenciaRepartida + capitalJuan
+        totalCapitalJose = herenciaRepartida + capitalJose
+        totalCapitalHerencia = totalCapitalJose + totalCapitalJuan
+    mostrar totalCapitalHerencia
+    mostrar totalCapitalJuan
+    mostrar totalCapitalJose
+fin

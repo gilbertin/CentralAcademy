@@ -1,0 +1,14 @@
+##Calcula cuántas horas debe trabajar Juan si quiere reunir cierta cantidad de dinero con cierta base salarial 
+##por hora
+##Horas de trabajo(sueldo, meta)
+
+
+##horasTrabajadas (salary_per_hour, goals)
+
+begin 
+    Leer SalarioMensual
+    Leer InversionNecesaria
+    SalarioPorHora = ((SalarioMensual / 30.5)/8)
+    HorasNesesarias = InversionNecesaria / SalarioPorHoras
+    Imprimir HorasNecesarias
+end

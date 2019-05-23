@@ -1,0 +1,13 @@
+##Diego quiere comprar una compu, ¿Cuanto tiene que pagar si además del precio de la compu tiene que pagar
+##el iva?
+
+#Compu Diego (compu)
+
+inicio 
+    Leer precioComputadora
+    Leer iva
+
+    Calcular ivaTotal = precioComputadora * (iva / 100)
+    Calcular TotalVenta = ivaTotal + precioComputadora
+    Imprimir TotalVenta
+fin

@@ -1,0 +1,15 @@
+##Tus amigos van a un restaurante y se dividen la cuenta ¿Cuánto paga cada quien si se divide la cuenta en 
+##partes iguales y además dejan el 10% de propina?
+
+##Restaurante (precio, individuos)
+
+inicio
+    Leer cuentaTotal
+    Leer propinaTotal (10%)
+    Leer NumeroPersonas
+
+    CalcularPropina = cuentaTotal * .10
+    Calcular pagoPersonal = cuentaTotal / NumeroPersonas ) + CalcularPropina
+    Pagar Cuenta 
+fin
+
